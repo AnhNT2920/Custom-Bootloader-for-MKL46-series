@@ -1,6 +1,6 @@
 # Custom Bootloader
 
-Custom Bootloader to update firmware, developed on the FRDM-KL46Z board using Kinetis Design Studio IDE.
+Custom Bootloader to update firmware through UART, developed on the FRDM-KL46Z board using Kinetis Design Studio IDE.
 
 ## Built With
 
@@ -22,6 +22,7 @@ This project is public for use.
 ## Important notes
 
 * This bootloader works on the MKL46Z series.
+* The UART baud rate is 115200.
 * Can work with 3 types of address (16-bit, 24-bit, 32-bit) record in Srec file.
 * Boot mode should be run initially for stable operation.
 * Maximum Flash size that can be written for the new update is 214 kB.
