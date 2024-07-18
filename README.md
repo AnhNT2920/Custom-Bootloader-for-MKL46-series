@@ -24,4 +24,5 @@ This project is public for use.
 * This bootloader works on the MKL46Z series.
 * Can work with 3 types of address (16-bit, 24-bit, 32-bit) record in Srec file.
 * Boot mode should be run initially for stable operation.
+* Maximum Flash size that can be written for the new update is 214 kB.
 * To enter Boot mode in the first run, hold the Boot button (switch 2) then press reset.
