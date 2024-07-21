@@ -23,7 +23,5 @@ This project is public for use.
 
 * This bootloader works on the MKL46Z series.
 * The UART baud rate is 115200.
-* Can work with 3 types of address (16-bit, 24-bit, 32-bit) record in Srec file.
-* Boot mode should be run initially for stable operation.
-* Maximum Flash size that can be written for the new update is 214 kB.
-* To enter Boot mode in the first run, hold the Boot button (switch 2) then press reset.
+* For Requirements Specification and System design, download the [CustomBootloader_SRS](https://github.com/AnhNT2920/Custom-Bootloader-for-MKL46-series/blob/main/CustomBootloader_SRS.pdf)
+* For Test Cases, downd load the [Bootloader_TestCases](https://github.com/AnhNT2920/Custom-Bootloader-for-MKL46-series/blob/main/Bootloader_TestCases.xlsx)
